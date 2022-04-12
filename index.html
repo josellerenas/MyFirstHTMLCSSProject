@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>App de Perritos</title>
+    <link href="style.css" rel="stylesheet">
+
+    <!-- The next three link elements are from fonts.google.com -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hurricane&family=Josefin+Sans&family=Roboto:wght@500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="contenedor-tamaño-fuente">
+      <div class="rectangulo px">200 px de Ancho</div>
+      <div class="rectangulo vw">20vw de Ancho</div>
+      <div class="rectangulo em">15em de Ancho</div>
+    </div>
+
+    <a href="#" class="link">Hola</a>
+
+    <h2 id="titulo-app-perros">AppDePerros</h2>
+    <main>
+      <h3>Imágenes de perritos</h3>
+      <p>Haz click aquí para ver más <a href="https://www.google.com.mx" target="_blank" rel="noopener noreferrer">imágenes de perritos</a> y demas informacion relevante</p>
+
+      <div class="contenedor-imagenes">
+        <a href="#" target="_blank" rel="noopener noreferrer"><img id="imagen-perrito-durmiendo" src="https://www.mascotahogar.com/Imagenes/wallpaper-de-perrito-tierno.jpg" alt="Perrito durmiendo"></a>
+      </div>
+
+      <hr>
+
+      <h3>Listas de Perros</h3>
+
+      <div class="contenedor-listas">
+        <p>Cosas que los perros <em>aman</em></p>
+        <ul id="lista-perros-aman" class="lista-de-perros">
+          <li>Huesos</li>
+          <li>Pelotas</li>
+          <li>Humanos</li>
+        </ul>
+        <img id="imagen-de-balon" class="bordes-redondeados" src="imagenes/balon_de_futbol.jpg" alt="Balón de futbol">
+
+        <p>Cosas que los perros <strong>odian</strong>
+        </p>
+        <ol id="lista-perros-odian" class="lista-de-perros">
+          <li>Agua</li>
+          <li><s>Gatos</s></li>
+          <li>Cuetes</li>
+        </ol>
+        <img class="imagen-de-perros" src="imagenes/cuetes.jpg" alt="Cuetes">
+      </div>
+
+      <form action="/enviarRespuesta">
+        <!-- Botones de radio -->
+        <label for="interior">
+          <input id="interior" type="radio" value="interior" name="interior-exterior" checked>Interior
+        </label>
+        <br>
+
+        <label for="exterior">
+          <input id="exterior" type="radio" value="exterior" name="interior-exterior">Exterior
+        </label>
+        <br>
+
+        <!-- Casillas de verificación -->
+        <label for="carinoso">
+          <input type="checkbox" name="personalidad" value="carinoso" id="carinoso" checked>Cariñoso
+        </label>
+        <br>
+        <label for="perezoso">
+          <input type="checkbox" name="personalidad" value="perezoso" id="perezoso">Perezoso</label>
+          <br>
+        <label for="energico">
+          <input type="checkbox" value="energico" name="personalidad" id="energico">Enérgico
+        </label>
+        <br> 
+
+        <!-- Texto y botón de enviar -->
+        <input type="text" placeholder="URL de la foto de tu perro" required>
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
+    <footer>
+      <p><small>Sin derechos de autor. Developed by Pepe <a href="https://freecodecamp.com" target="_blank">freecodecamp</a></small></p>
+    </footer>
+  </body>
+</html>

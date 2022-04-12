@@ -1,0 +1,95 @@
+#titulo-app-perros {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 50px;
+  color: green;
+}
+
+#lista-perros-aman {
+  font-size: 15px;
+  color: blueviolet;
+}
+
+#lista-perros-odian {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.imagen-de-perros {
+  width: 200px;
+}
+
+.contenedor-listas {
+  background-color: silver;
+}
+
+.contenedor-imagenes {
+  background-color: brown;
+}
+
+img {
+  width: 200px;
+  margin: 15px;
+  background-color: yellow;
+  padding: 15px;
+  border-width: 2px;
+  border-color: blue;
+  border-style: solid;
+}
+
+img[alt] {
+  border-radius: 50%;
+}
+
+[type="radio"] {
+  margin: 5px;
+}
+
+[type="checkbox"] {
+  margin: 5px;
+}
+
+a[href="https://www.google.com.mx"] {
+  color: green;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#contenedor-tamaño-fuente {
+  color: white;
+  padding: 5px;
+  font-size: 10px;
+  background-color: yellow;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.rectangulo {
+  padding: 5px;
+  margin: 5px;
+}
+
+.px {
+  background-color: crimson;
+  width: 200px;
+}
+
+.vw {
+  background-color: darkmagenta;
+  width: 20vw;
+}
+
+.em {
+  background-color: green;
+  width: 15em;
+}
+
+a {
+  text-decoration: red wavy underline;
+}
+
+.link {
+  text-decoration: line-through;
+}
